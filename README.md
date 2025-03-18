@@ -14,7 +14,7 @@ This project analyzes e-commerce sales data using **SQL Server**, **Power BI**, 
 - 📁 **Python** → Scripts for data analysis
 
 ## Example Insights:
-✔️ Best-selling products  
-✔️ Monthly sales growth  
-✔️ Customer segmentation  
-✔️ Impact of marketing campaigns  
+✔️ Top-selling products (Which products generate the most revenue?)
+✔️ Sales performance by region (Which locations bring in the highest sales?)
+✔️ Customer segmentation by purchase behavior (Who are the high-value customers?)
+✔️ Profitability by product category (Which product categories have the highest margins?)
