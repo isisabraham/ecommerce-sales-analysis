@@ -7,13 +7,13 @@ This project analyzes e-commerce sales data using **SQL Server**, **Power BI**, 
 - **Power BI** → Dashboards and interactive visualizations
 - **Python** → Advanced analytics
 
-## 📂 Project Structure:
+## Project Structure:
 - 📁 **SQL** → SQL queries and export scripts
 - 📁 **Data** → CSV files extracted from the database
 - 📁 **PowerBI** → Reports and interactive dashboards
 - 📁 **Python** → Scripts for data analysis
 
-## 📊 Example Insights:
+## Example Insights:
 ✔️ Best-selling products  
 ✔️ Monthly sales growth  
 ✔️ Customer segmentation  
