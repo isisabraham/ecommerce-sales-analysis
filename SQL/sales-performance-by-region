@@ -1,0 +1,11 @@
+SELECT 
+    g.RegionCountryName AS Region,
+    SUM(s.SalesAmount) AS TotalSales
+FROM 
+    FactSales s
+JOIN 
+    DimGeography g ON GeographyKey = g.GeographyKey
+GROUP BY 
+    g.RegionCountryName
+ORDER BY 
+    TotalSales DESC;
