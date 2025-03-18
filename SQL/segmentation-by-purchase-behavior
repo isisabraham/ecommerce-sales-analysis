@@ -1,0 +1,15 @@
+SELECT 
+    c.CustomerKey,
+    c.FirstName,
+    c.LastName,
+    SUM(f.SalesAmount) AS TotalSpent
+FROM 
+    FactSales f
+JOIN 
+    DimCustomer c ON f.CustomerKey = c.CustomerKey
+GROUP BY 
+    c.CustomerKey, c.FirstName, c.LastName
+HAVING 
+    SUM(f.SalesAmount) > 1000 
+ORDER BY 
+    TotalSpent DESC;
